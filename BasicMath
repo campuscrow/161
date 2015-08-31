@@ -1,1 +1,17 @@
-// Homework 1 Peter Stanley
+// Peter Stanley Homework 01 
+
+// Sherlock Holmes and the case of the mistyped operator
+private class Basic Math {
+    public static void main(String[] args)
+      static int(
+    
+    
+    
+    System.out.println("Sherlock says: 'Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth.'");
+    System.out.println("But that result seems more than improbable - check your operators!")
+    
+    
+  }
+
+
+}
