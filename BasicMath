@@ -1,15 +1,18 @@
 // Peter Stanley Homework 01 
 
 // Sherlock Holmes and the case of the mistyped operator
-private class Basic Math {
+private class BasicMath {
     public static void main(String[] args)
-      static int(
+      static int(eggs = 9
+      static int(plates = 4
     
-    
+    System.out.println("I get "+eggs%plates)
     
     System.out.println("Sherlock says: 'Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth.'");
     System.out.println("But that result seems more than improbable - check your operators!")
     
+    System.out.println("I get "+eggs/plates)
+    System.out.println("Aha! case solved.")
     
   }
 
