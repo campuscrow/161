@@ -1,7 +1,6 @@
 // Homework 1 Peter Stanley
 
-
-public class BasicMath
+private class BasicMath
 {
    public static void main(String[] args)
    {
@@ -27,11 +26,5 @@ public class BasicMath
         System.out.println(a" is greater than either " the number of bills on my deerstalker hat or "c".");
       }
 
-      // Print change due
-      
-      System.out.printf("Dollar coins: %6d", dollarCoins);
-      System.out.println();
-      System.out.printf("Quarters: %6d", quarters);
-      System.out.println();
    }
 }
