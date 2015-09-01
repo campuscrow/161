@@ -1,1 +1,37 @@
 // Homework 1 Peter Stanley
+
+
+public class BasicMath
+{
+   public static void main(String[] args)
+   {
+   
+      // initialize variables - I hear it's best to give starting values, though here the variables are about to change
+      int a = 1
+      int b = 2
+      int c = 10;
+      final int deerstalkerBills = 2;
+
+      // do some basic arithmaric and show work
+      c = a + b
+      System.out.println(a" + "b" = "c);
+      System.out.println(a" - "b" = "a-b);
+      
+      
+
+      // do some basic booleans and show work
+      if ( (a > c) && (a > b) ) {
+        System.out.println(a" is greater than "c" and "b".");
+      }
+      if ( (a > deerstalkerBills) || (a > c) ) {
+        System.out.println(a" is greater than either " the number of bills on my deerstalker hat or "c".");
+      }
+
+      // Print change due
+      
+      System.out.printf("Dollar coins: %6d", dollarCoins);
+      System.out.println();
+      System.out.printf("Quarters: %6d", quarters);
+      System.out.println();
+   }
+}
