@@ -4,26 +4,24 @@ private class BasicMath
 {
    public static void main(String[] args)
    {
-   
+       
       // initialize variables - I hear it's best to give starting values, though here the variables are about to change
-      int a = 1
-      int b = 2
-      int c = 10;
+      int hatBill = 1
+      int hatFlap = 2
+      int stuffOnHat = 10;
       final int deerstalkerBills = 2;
 
       // do some basic arithmaric and show work
-      c = a + b
-      System.out.println(a" + "b" = "c);
-      System.out.println(a" - "b" = "a-b);
+      stuffOnHat = hatBill + hatFlap
+      System.out.println(hatBill" + "hatFlap" = "stuffOnHat);
+      System.out.println(hatBill" - "hatFlap" = "hatBill-hatFlap);
       
-      
-
       // do some basic booleans and show work
-      if ( (a > c) && (a > b) ) {
-        System.out.println(a" is greater than "c" and "b".");
+      if ( (hatBill > stuffOnHat) && (hatBill > hatFlap) ) {
+        System.out.println(hatBill" is greater than "stuffOnHat" and "hatFlap".");
       }
-      if ( (a > deerstalkerBills) || (a > c) ) {
-        System.out.println(a" is greater than either " the number of bills on my deerstalker hat or "c".");
+      if ( (hatBill > deerstalkerBills) || (hatBill > stuffOnHat) ) {
+        System.out.println(hatBill" is greater than either " the number of bills on my deerstalker hat or "stuffOnHat".");
       }
 
    }
